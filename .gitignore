@@ -2,14 +2,7 @@ FOUND.*
 System\ Volume\ Information*
 bootanim/
 lvui*
-Games/
-game/
-!game/cps/
-game/cps/*.zip
-game/cps/*.mp4
-!game/naomi/
-game/naomi/*.zip
-game/naomi/*.mp4
+Games/*
 game_picture/
 lib/lvui
 lib/retro*
@@ -21,6 +14,6 @@ res/*.db
 !retroarch/config/**/**
 !retroarch/saves/**/**
 retro_lib/
-*.sh
-!start_game.sh
+!/start_game.sh
+/*.sh
 database.sqlite3
