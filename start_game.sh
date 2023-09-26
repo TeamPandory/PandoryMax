@@ -84,33 +84,15 @@ case "$1" in
 	22)
     GAME_LIB=swanstation_libretro.so
 	;;	
-	35)
-    GAME_LIB=mame2003_plus_libretro.so
-	;;
-	36)
-    GAME_LIB=fbneo_libretro.so
-	;;
-	37)
-    GAME_LIB=fceumm_libretro.so
-	;;
-	38)
-    GAME_LIB=mame_libretro.so
-	;;
-	39)
-    GAME_LIB=mednafen_psx_libretro.so
-	;;
-	40)
-    GAME_LIB=pcsx_rearmed_n_libretro.so
-	;;
   *)
     echo "Have not game resources"
     return
     ;;
 esac
 	if [ "$1" == 19 ]; then
-		/tmp/ppsspp.sh "$3"
+		/sdcard/ppsspp.sh "$3"
 	else
-		/tmp/retroarch \
+		/sdcard/lib/retroarch \
 		-c "$2"\
 		-L /sdcard/retro_lib/$GAME_LIB "$3" -Z $4 -z $5 -Y $6 -y $7 -x $8 -M $9  
 	

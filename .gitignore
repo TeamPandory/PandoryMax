@@ -12,14 +12,14 @@ game/naomi/*.zip
 game/naomi/*.mp4
 game_picture/
 lib/lvui
-lib/retroarch
+lib/retro*
 ppsspp/
 !ppsspp/PSP/SYSTEM/
 retroarch/
 res/*.db
 !retroarch/*.cfg
-!retroarch/config/
-!retroarch/saves/
+!retroarch/config/**/**
+!retroarch/saves/**/**
 retro_lib/
 *.sh
 !start_game.sh

@@ -82,7 +82,7 @@ case "$1" in
     GAME_LIB=dc_sunchip_libretro.so
 	;;
 	22)
-    GAME_LIB=swanstation_libretro.so
+    GAME_LIB=pcsx_rearmed_libretro.so
 	;;	
   *)
     echo "Have not game resources"
