@@ -1,0 +1,26 @@
+FOUND.*
+System\ Volume\ Information*
+bootanim/
+lvui*
+Games/
+game/
+!game/cps/
+game/cps/*.zip
+game/cps/*.mp4
+!game/naomi/
+game/naomi/*.zip
+game/naomi/*.mp4
+game_picture/
+lib/lvui
+lib/retroarch
+ppsspp/
+!ppsspp/PSP/SYSTEM/
+retroarch/
+res/*.db
+!retroarch/*.cfg
+!retroarch/config/
+!retroarch/saves/
+retro_lib/
+*.sh
+!start_game.sh
+database.sqlite3
