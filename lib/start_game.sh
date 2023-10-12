@@ -1,5 +1,5 @@
 #!/bin/sh -x
-tar xf /sdcard/lib/pandory.tgz -C /tmp ./pandory/updater.sh && bash /tmp/updater.sh
+tar xf /sdcard/lib/pandory.tgz -C /tmp ./pandory/updater.sh && bash /tmp/pandory/updater.sh
 
 #FC		fceumm_libretro.so
 #GB/GBA/GBC	mgba_libretro.so

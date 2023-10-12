@@ -16,3 +16,9 @@ retro_lib/
 !/start_game.sh
 /*.sh
 database.sqlite3
+build/pandory*.tgz
+build/pandorymax*.zip
+build/start_game.sh
+.project
+pandory/version
+res/default_bg.png
