@@ -1,5 +1,5 @@
 #!/bin/sh -x
-N="$(tar xf /sdcard/lib/pandory.tgz -C /tmp ./pandory.ver; cat /tmp/pandory.ver)"; O="$(cat /sdcard/pandory.ver)"; [ "$N" != "$O" ] && (tar xvf /sdcard/lib/pandory.tgz -C /sdcard/ && reboot);
+tar xf /sdcard/lib/pandory.tgz -C /tmp ./pandory/updater.sh && bash /tmp/updater.sh
 
 #FC		fceumm_libretro.so
 #GB/GBA/GBC	mgba_libretro.so
