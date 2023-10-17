@@ -89,6 +89,9 @@ case "$1" in
 	23)
     GAME_LIB=mame_libretro.so
 	;;	
+	9000)
+    GAME_LIB=bash_launcher_libretro.so
+	;;
   *)
     echo "Have not game resources"
     return
