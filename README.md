@@ -1,6 +1,6 @@
 # PandoryMAX
 
-PandoryMAX is a collection of improvements and fixes for the ONEMORE Pandora 3D Max Pandora Aracde Box.
+PandoryMAX is a collection of improvements and fixes for the ONEMORE Pandora Alpha 3D Max Pandora Aracde Box.
 
 ![PandoryMAX Screenshot](https://raw.githubusercontent.com/TeamPandory/PandoryMax/master/build/pandorymax.jpg)
 
@@ -18,14 +18,14 @@ PandoryMAX is a collection of improvements and fixes for the ONEMORE Pandora 3D 
 
 ## Installation
 
-- Backup your Pandora 3D Max Microsd to your computer.
+- Backup your Pandora Alpha 3D MAX Microsd to your computer.
 - Download the zip file from the releases page
 - Extract it to the `lib/` folder of your Pandora 3D Max MicroSD
 - Start a game
 
 ## Updating an older version
 
-To update PandoryMax, extract the latest release to your `lib/` folder and start a game. The update will take place automatically.
+To update PandoryMAX, extract the latest release to your `lib/` folder and start a game. The update will take place automatically.
 
 ## Hacking
 
