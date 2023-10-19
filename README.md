@@ -33,4 +33,4 @@ Have an improvement? [Fork](https://github.com/TeamPandory/PandoryMax/fork) our 
 
 ## License
 
-All of PandoryMAX is licensed under the GPL2 with the exception of the included [sqlite3](https://github.com/TeamPandory/PandoryMax/blob/master/pandory/sqlite3) binary in the `pandory` folder, which is compiled using the [GCC Linaro 6.3.1 - 2017.05](https://releases.linaro.org/components/toolchain/binaries/6.3-2017.05/arm-linux-gnueabihf/) toolchain from commit [43fa051](https://github.com/sqlite/sqlite/commit/43fa051ec7c5a7d89e1f5f541a5cd34d53e07422) and is licensed as public domain. 
+All of PandoryMAX is licensed under the [GPL2](https://github.com/TeamPandory/PandoryMax/blob/master/LICENSE) with the exception of the included [sqlite3](https://github.com/TeamPandory/PandoryMax/blob/master/pandory/sqlite3) binary in the `pandory` folder, which is compiled using the [GCC Linaro 6.3.1 - 2017.05](https://releases.linaro.org/components/toolchain/binaries/6.3-2017.05/arm-linux-gnueabihf/) toolchain from commit [43fa051](https://github.com/sqlite/sqlite/commit/43fa051ec7c5a7d89e1f5f541a5cd34d53e07422) and is licensed as public domain. 
