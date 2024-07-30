@@ -21,7 +21,7 @@ PandoryMAX is a collection of improvements and fixes for the ONEMORE Pandora Alp
 - Backup your Pandora Alpha 3D MAX Microsd to your computer.
 - Download the zip file from the releases page
 - Extract it to the `lib/` folder of your Pandora 3D Max MicroSD
-- Start a game
+- Start a game. Choose a classic arcade one like `Metal Slug`.
 
 ## Updating an older version
 
