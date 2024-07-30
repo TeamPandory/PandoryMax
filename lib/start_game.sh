@@ -1,6 +1,5 @@
 #!/bin/sh -x
 tar xf /sdcard/lib/pandory.tgz -C /tmp ./pandory/updater.sh && bash /tmp/pandory/updater.sh
-
 #FC		fceumm_libretro.so
 #GB/GBA/GBC	mgba_libretro.so
 #MD		genesisplusgx_libretro.so
@@ -88,10 +87,14 @@ case "$1" in
 	;;	
 	23)
     GAME_LIB=mame_libretro.so
+	;;
+	35)
+    GAME_LIB=mame2003_plus_libretro.so
 	;;	
 	9000)
     GAME_LIB=bash_launcher_libretro.so
 	;;
+
   *)
     echo "Have not game resources"
     return
@@ -99,10 +102,13 @@ case "$1" in
 esac
 	if [ "$1" == 19 ]; then
 		/sdcard/ppsspp.sh "$3"
+	elif [ "$1" == 8 ] || [ "$1" == 20 ] || [ "$1" == 21 ] || [ "$1" == 22 ];then
+		/sdcard/lib/retroarch_dc \
+		-c "/mnt/sdcard/retroarch/zip.cfg"\
+		-L /sdcard/retro_lib/$GAME_LIB "$3" -Z $4 -z $5 -Y $6 -y $7 -x $8 -M $9 
 	else
 		/sdcard/lib/retroarch \
 		-c "$2"\
 		-L /sdcard/retro_lib/$GAME_LIB "$3" -Z $4 -z $5 -Y $6 -y $7 -x $8 -M $9  
 	
     fi
-
